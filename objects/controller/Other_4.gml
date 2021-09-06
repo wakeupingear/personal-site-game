@@ -1,9 +1,6 @@
 /// @description Set camera
-if instance_exists(ply)
-{
-	x=ply.x;
-	y=ply.y;
-}
+x=global.startX;
+y=global.startY;
 global.cam=camera_create();
 view_camera[0] = global.cam;
 var viewmat = matrix_build_lookat(x, y, -10, x, y, 0, 0, 1, 0);
