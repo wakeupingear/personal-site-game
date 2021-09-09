@@ -8,6 +8,7 @@ frameTime=0;
 frameDir=1;
 visible=false;
 
+index=1;
 target_x=x;
 target_y=y;
 spd=0;

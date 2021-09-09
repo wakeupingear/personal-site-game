@@ -1,3 +1,6 @@
+function camX(){ return camL() };
+function camY(){ return camT() };
+
 function camL(){
 	return controller.x-controller.camW/2;
 }
